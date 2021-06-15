@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
       <Header />
-      <Main />
+      <Main name={ data.name } location={ data.location }/>
       <Footer />
     </div>
   );

@@ -1,12 +1,13 @@
 import React from 'react';
 
-const Main = () => {
+const Main = (props) => {
 
 
     return (
 <div>
 <main>
-      main
+      <h1>{ props.name }</h1>
+      <h3>{ props.location }</h3>
     </main>
 </div>
     )
